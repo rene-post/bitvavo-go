@@ -216,7 +216,7 @@ type Order struct {
 
 type OrderFill struct {
 	Id          string `json:"id"`
-	Timestamp   int64  `json:"timestamp"`
+	Timestamp   uint64 `json:"timestamp"`
 	Amount      string `json:"amount"`
 	Price       string `json:"price"`
 	Taker       bool   `json:"taker"`
